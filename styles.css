@@ -1,0 +1,255 @@
+body {
+  background-attachment: fixed;
+  background-image: url(images/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: 400vh;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #FFF5EE;
+  border: 3px solid rgb(0 103 132);
+  font-weight: 800;
+  height: 9vh;
+  padding: 4% 3% 3% 3%;
+  width: 92vw;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin: 3% 0 1% 0;
+}
+
+p {
+  margin: 0 5% 0 0;
+}
+
+.nickname {
+  color: rgb(138 138 138);
+  margin: 0 0 5% 0;
+}
+
+a {
+  color: rgb(138 138 138);
+}
+
+a:link {
+  color: rgb(0 103 132);
+  text-decoration: none;
+}
+
+.login-tab {
+  color: rgb(0 103 132);
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: right;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-elements {
+  color: rgb(0 103 132);
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 1.2rem 2rem 0 0;
+}
+
+.page-container-title {
+  color: rgb(0 103 132);
+  font-size: 5vh;
+  font-weight: 800;
+  margin: 5vh 0 5vh 1vw;
+}
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 1%;
+}
+
+.cards {
+  background-color: rgb(255 255 255);
+  box-shadow: 1px 1px 5px;
+  color: #212121;
+  height: 39rem;
+  margin: 0.6rem;
+  padding: 0;
+  text-align: left;
+  width: 20rem;
+}
+
+.card-box {
+  padding-left: 1.5rem;
+}
+
+.website-box {
+  background-color: rgb(239 239 239);
+  height: 2vh;
+  overflow: hidden;
+  padding: 5%;
+  width: 84%;
+}
+
+.population {
+  color: rgb(63 187 255);
+  font-size: 2rem;
+}
+
+.overlay {
+  background: rgba(1, 0, 0, 0);
+  filter: brightness(60%);
+  height: 15rem;
+  width: 100%;
+}
+
+.login-tab,
+.nav-elements,
+.overlay:hover,
+.arrow-button:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+}
+
+.fact-1 {
+  padding-bottom: 1.3rem;
+}
+
+.fact-4 {
+  padding-bottom: 0.2rem;
+}
+
+.fact-6 {
+  padding-bottom: 1rem;
+}
+
+.arrow-button {
+  height: 3rem;
+  position: absolute;
+  transform: translate(0, -240px);
+}
+
+.aloha-logo {
+  height: 8rem;
+}
+
+.logos {
+  height: 3rem;
+  transform: translate(-0.6vw, 1vh);
+}
+
+@media only screen and (max-width: 1660px) {
+  .aloha-logo {
+    display: none;
+  }
+  .fact-1 {
+    padding-bottom: 1.3rem;
+  }
+  .fact-4 {
+    padding-bottom: 0.2rem;
+  }
+  .fact-6 {
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .page-container {
+    justify-content: center;
+  }
+
+  header {
+    padding: 5% 0 1% 8%;
+    width: 90vw;
+  }
+
+  .nav-elements {
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem 1rem 0 1.8rem;
+    text-align: center;
+  }
+
+  .logos {
+    transform: translate(2.5vw, 1vh);
+  }
+
+  .page-container-title {
+    margin: 2vh 0 2vh 1vw;
+    text-align: center;
+  }
+
+  .cards {
+    width: 21rem;
+  }
+
+  .aloha-logo,
+  .login-tab {
+    display: none;
+  }
+
+  .fact-1,
+  .fact-4,
+  .fact-6 {
+    padding-bottom: 0;
+  }
+
+  .overlay {
+    filter: brightness(100%);
+  }
+
+  .arrow-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  header {
+    display: none;
+  }
+
+  .nav-elements {
+    display: none;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .page-container-title {
+    font-size: 2.2rem;
+  }
+
+  .overlay {
+    filter: brightness(100%);
+  }
+
+  .arrow-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  header {
+    display: none;
+  }
+
+  .nav-elements {
+    display: none;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .page-container-title {
+    font-size: 2.2rem;
+  }
+  
+  .website-box {
+    padding: 2.4%;
+  }
+}
