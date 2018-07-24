@@ -27,5 +27,10 @@ Additional Requirements
 Site must work across Firefox, Safari, Chrome
 Developer must use normalize instead of reset file in CSS
  
-[My Comp,](images/my-comp.jpg)
-[Original Comp](images/original-comp.jpg)
+Orginal Comp
+
+<img src="images/original-comp.jpg">
+
+My Comp
+
+<img src="images/my-comp.jpg">
